@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagConversion", "ZigZagC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{C1F3AB8F-DB77-49F3-B07A-1D5476DD3DD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringToInteger", "StringToInteger\StringToInteger.csproj", "{11464FF3-7460-4C0C-B371-F8BBD7CB26BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressionMatching", "RegularExpressionMatching\RegularExpressionMatching.csproj", "{AF88296B-8816-49C9-9212-E5FC22B76427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{C1F3AB8F-DB77-49F3-B07A-1D5476DD3DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F3AB8F-DB77-49F3-B07A-1D5476DD3DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1F3AB8F-DB77-49F3-B07A-1D5476DD3DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11464FF3-7460-4C0C-B371-F8BBD7CB26BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11464FF3-7460-4C0C-B371-F8BBD7CB26BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11464FF3-7460-4C0C-B371-F8BBD7CB26BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11464FF3-7460-4C0C-B371-F8BBD7CB26BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF88296B-8816-49C9-9212-E5FC22B76427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF88296B-8816-49C9-9212-E5FC22B76427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF88296B-8816-49C9-9212-E5FC22B76427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF88296B-8816-49C9-9212-E5FC22B76427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
