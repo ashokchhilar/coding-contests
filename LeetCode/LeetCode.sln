@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLists", "Merg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKSortedLists", "MergeKSortedLists\MergeKSortedLists.csproj", "{D1830190-7C2D-450A-9541-D449E9BF0BBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{7501B952-29EB-49F6-87F3-292CC9DCD861}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{D1830190-7C2D-450A-9541-D449E9BF0BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1830190-7C2D-450A-9541-D449E9BF0BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1830190-7C2D-450A-9541-D449E9BF0BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7501B952-29EB-49F6-87F3-292CC9DCD861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7501B952-29EB-49F6-87F3-292CC9DCD861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7501B952-29EB-49F6-87F3-292CC9DCD861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7501B952-29EB-49F6-87F3-292CC9DCD861}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
