@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNodesInKGroups", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{C43033C3-B6F6-42E4-86EA-69667EC10718}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateParenthesis", "GenerateParenthesis\GenerateParenthesis.csproj", "{E4D19E6E-1DBB-43F8-B9AF-88B282EEE0D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{C43033C3-B6F6-42E4-86EA-69667EC10718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C43033C3-B6F6-42E4-86EA-69667EC10718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C43033C3-B6F6-42E4-86EA-69667EC10718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D19E6E-1DBB-43F8-B9AF-88B282EEE0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D19E6E-1DBB-43F8-B9AF-88B282EEE0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D19E6E-1DBB-43F8-B9AF-88B282EEE0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D19E6E-1DBB-43F8-B9AF-88B282EEE0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

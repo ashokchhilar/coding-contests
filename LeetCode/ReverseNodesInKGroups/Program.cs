@@ -82,6 +82,11 @@ namespace ReverseNodesInKGroups
             return newhead == null ? head : newhead;
         }
 
+        public ListNode SwapPairs(ListNode head)
+        {
+            return ReverseKGroup(head, 2);
+        }
+
         static void Main(string[] args)
         {
             var myList = ListNode.GetLinkedList(5);
