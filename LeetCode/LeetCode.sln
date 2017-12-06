@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrappingRainWater", "Trappi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPermutation", "NextPermutation\NextPermutation.csproj", "{53106E2C-B5E3-45CC-AD7E-1796A4861A85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation", "Permutation\Permutation.csproj", "{05CC875A-9DA2-4EC5-97C3-67FB8B73EC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations II", "Permutations II\Permutations II.csproj", "{B81CAE85-04B6-4FC9-81F6-A907DDC54847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{53106E2C-B5E3-45CC-AD7E-1796A4861A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53106E2C-B5E3-45CC-AD7E-1796A4861A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53106E2C-B5E3-45CC-AD7E-1796A4861A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05CC875A-9DA2-4EC5-97C3-67FB8B73EC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CC875A-9DA2-4EC5-97C3-67FB8B73EC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CC875A-9DA2-4EC5-97C3-67FB8B73EC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CC875A-9DA2-4EC5-97C3-67FB8B73EC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81CAE85-04B6-4FC9-81F6-A907DDC54847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81CAE85-04B6-4FC9-81F6-A907DDC54847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81CAE85-04B6-4FC9-81F6-A907DDC54847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81CAE85-04B6-4FC9-81F6-A907DDC54847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
