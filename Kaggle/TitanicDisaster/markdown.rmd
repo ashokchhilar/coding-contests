@@ -1,0 +1,91 @@
+---
+title: "Titanic Survivor Prediction"
+output: html_document
+smart : FALSE
+---
+
+This is from Kaggle Titanic Contest. I am trying to analyze the data and answer the questions.
+
+```{r}
+#Read the dataset
+library(caret)
+library(kernlab)
+library(stringr)
+library(dplyr)
+library(ggplot2)
+
+titanic = read.csv("train.csv")
+
+t <- titanic[, c("Name", "Survived", "Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked", "Cabin")]
+lowSR <- c("Mr", "Capt", "Don", "Jonkheer", "Rev")
+
+t$Age[is.na(t$Age)] <- -1
+t$Survived = as.factor(t$Survived)
+t$Cabin = as.factor(substring(t$Cabin, 1, 1))
+t$Name <- as.factor(substring(str_extract(t$Name, ", [a-zA-Z]+"), 3))
+t$LowSurvivalName <- t$Name %in% lowSR
+
+p = t %>% group_by(Name) %>% summarise(Count = n(), survivalCount = sum(as.integer(Survived)-1), perc = survivalCount / n())
+p <- p[order(-p$perc),]
+
+ggplot(p, aes(x = Name, y = perc)) + geom_bar(stat = "identity") + coord_flip() + theme_classic()
+
+#ggplot(t, aes(Title)) + geom_bar(aes(fill = Survived)) + coord_flip()
+#ggplot(t, aes(Pclass)) + geom_bar(aes(fill = Survived)) + coord_flip()
+#ggplot(t, aes(Sex)) + geom_bar(aes(fill = Survived)) + coord_flip()
+#ggplot(t, aes(Embarked)) + geom_bar(aes(fill = Survived)) + coord_flip()
+
+```
+
+
+
+
+```{r}
+t <- t[, c("LowSurvivalName", "Survived", "Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked", "Cabin")]
+
+
+inTrain <- createDataPartition(y = t$Survived, p = 0.75, list = FALSE)
+
+training <- t[inTrain,]
+testing <- t[-inTrain,]
+
+dim(training)
+dim(testing)
+
+head(training)
+```
+
+
+
+
+```{r}
+modFit <- train(Survived ~ ., method = "rpart", data = training)
+predicted = predict(modFit, testing)
+accuracy = sum(predicted == testing$Survived) / length(predicted)
+accuracy
+
+testdata <- read.csv("test.csv")
+t2 <- testdata[, c("Name", "Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked", "Cabin")]
+t2$Cabin = as.factor(substring(t2$Cabin, 1, 1))
+t2$Name <- as.factor(substring(str_extract(t2$Name, ", [a-zA-Z]+"), 3))
+t2$LowSurvivalName <- t2$Name %in% lowSR
+t2$Age[is.na(t2$Age)] <- -1
+t2$Fare[is.na(t2$Fare)] <- -1
+
+t2 <- t2[, c("LowSurvivalName", "Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked", "Cabin")]
+
+p = predict(modFit, t2)
+length(p) == nrow(testdata)
+
+testdata$Survived = p
+submit = testdata[, c("PassengerId", "Survived")]
+write.csv(submit, file = "output_12_1.csv", row.names = FALSE)
+```
+
+* Analyze the data 
+* Compute/Impute missing values
+* Analyze Predictors
+* Predict and Report
+
+See how survival varies by various variables
+
