@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation", "Permutation\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations II", "Permutations II\Permutations II.csproj", "{B81CAE85-04B6-4FC9-81F6-A907DDC54847}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmpImplementation", "KmpImplementation\KmpImplementation.csproj", "{9C8DD4D5-589C-4F29-AC33-E5974C8BFB57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{B81CAE85-04B6-4FC9-81F6-A907DDC54847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B81CAE85-04B6-4FC9-81F6-A907DDC54847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B81CAE85-04B6-4FC9-81F6-A907DDC54847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8DD4D5-589C-4F29-AC33-E5974C8BFB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8DD4D5-589C-4F29-AC33-E5974C8BFB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8DD4D5-589C-4F29-AC33-E5974C8BFB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8DD4D5-589C-4F29-AC33-E5974C8BFB57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
