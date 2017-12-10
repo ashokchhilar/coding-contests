@@ -9,24 +9,15 @@ namespace SearchInRotatedSortedArrayWithDuplicates
     public class Solution
     {
 
-        public bool Search(int[] nums, int target, int start, int end)
+        public bool Search(int[] nums, int target)
         {
-            if (start > end) return false;
-
-            int half = (end - start) / 2 + start;
-            if (target == nums[half]) return true;
-
-            if (nums[start] == nums[end])//can't determine the rotation point, search both paths
-            {
-                return Search(nums, target, start, half - 1) || Search(nums, target, half + 1, end);
-            }
+            if (nums == null || nums.Length == 0) return false;
+            int start = 0, end = nums.Length - 1;
 
             while (start <= end)
             {
-                half = (end - start) / 2 + start;
+                int half = (end - start) / 2 + start;
                 if (nums[half] == target) return true;
-                if (nums[start] == target) return true;
-                if (nums[end] == target) return true;
 
                 if (nums[start] == nums[half] && nums[half] == nums[end]) { start++; end--; }
 
@@ -54,12 +45,6 @@ namespace SearchInRotatedSortedArrayWithDuplicates
             }
 
             return false;
-        }
-
-        public bool Search(int[] nums, int target)
-        {
-            if (nums == null || nums.Length == 0) return false;
-            return Search(nums, target, 0, nums.Length - 1);
         }
 
         static void Main(string[] args)
