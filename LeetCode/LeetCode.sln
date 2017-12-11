@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountAndSay", "CountAndSay\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCombinations", "LetterCombinations\LetterCombinations.csproj", "{8759E3D4-8A60-42F2-A266-D83844C9010B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchForRange", "SearchForRange\SearchForRange.csproj", "{9CEDA7AE-3287-492A-8239-192287572539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeInorderTraversal", "BinaryTreeInorderTraversal\BinaryTreeInorderTraversal.csproj", "{89C7E0EA-29C5-45BA-B9EF-89B175696336}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +211,14 @@ Global
 		{8759E3D4-8A60-42F2-A266-D83844C9010B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8759E3D4-8A60-42F2-A266-D83844C9010B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8759E3D4-8A60-42F2-A266-D83844C9010B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CEDA7AE-3287-492A-8239-192287572539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEDA7AE-3287-492A-8239-192287572539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEDA7AE-3287-492A-8239-192287572539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEDA7AE-3287-492A-8239-192287572539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C7E0EA-29C5-45BA-B9EF-89B175696336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C7E0EA-29C5-45BA-B9EF-89B175696336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C7E0EA-29C5-45BA-B9EF-89B175696336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C7E0EA-29C5-45BA-B9EF-89B175696336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
