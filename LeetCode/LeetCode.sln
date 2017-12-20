@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWrod", "LengthO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQueens", "NQueens\NQueens.csproj", "{2B12ABD5-4CEC-425B-BAFB-7BFCB138196C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQueens2", "NQueens2\NQueens2.csproj", "{625446C2-8AB2-4522-949E-D081FBCC43EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,10 @@ Global
 		{2B12ABD5-4CEC-425B-BAFB-7BFCB138196C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B12ABD5-4CEC-425B-BAFB-7BFCB138196C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B12ABD5-4CEC-425B-BAFB-7BFCB138196C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625446C2-8AB2-4522-949E-D081FBCC43EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625446C2-8AB2-4522-949E-D081FBCC43EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625446C2-8AB2-4522-949E-D081FBCC43EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625446C2-8AB2-4522-949E-D081FBCC43EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
