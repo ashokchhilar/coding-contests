@@ -15,7 +15,7 @@ namespace BinaryTreeInorderTraversal
         public TreeNode right;
         public TreeNode(int x) { val = x; }
     }
-     
+
     public class Solution
     {
         public IList<int> InorderTraversal(TreeNode root)
@@ -24,8 +24,9 @@ namespace BinaryTreeInorderTraversal
             throw new NotImplementedException();
         }
 
-    static void Main(string[] args)
+        static void Main(string[] args)
         {
         }
     }
+
 }

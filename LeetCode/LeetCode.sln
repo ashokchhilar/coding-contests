@@ -73,6 +73,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchForRange", "SearchFor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeInorderTraversal", "BinaryTreeInorderTraversal\BinaryTreeInorderTraversal.csproj", "{89C7E0EA-29C5-45BA-B9EF-89B175696336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\RotateImage.csproj", "{AFB6124D-FD78-4B76-A806-67CBD9D70E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildcardMatching", "WildcardMatching\WildcardMatching.csproj", "{F6AD0092-CFD2-46B1-A7F6-16B10AE4C725}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +223,14 @@ Global
 		{89C7E0EA-29C5-45BA-B9EF-89B175696336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C7E0EA-29C5-45BA-B9EF-89B175696336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C7E0EA-29C5-45BA-B9EF-89B175696336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB6124D-FD78-4B76-A806-67CBD9D70E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB6124D-FD78-4B76-A806-67CBD9D70E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB6124D-FD78-4B76-A806-67CBD9D70E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB6124D-FD78-4B76-A806-67CBD9D70E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6AD0092-CFD2-46B1-A7F6-16B10AE4C725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6AD0092-CFD2-46B1-A7F6-16B10AE4C725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6AD0092-CFD2-46B1-A7F6-16B10AE4C725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6AD0092-CFD2-46B1-A7F6-16B10AE4C725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
