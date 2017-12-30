@@ -85,6 +85,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQueens", "NQueens\NQueens.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQueens2", "NQueens2\NQueens2.csproj", "{625446C2-8AB2-4522-949E-D081FBCC43EC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weekly Contest", "Weekly Contest", "{582D1C90-0D47-4A54-A22D-7E91296F6AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestNumberGreaterThanTwiceOthers", "WeeklyContest\LargestNumberGreaterThanTwiceOthers\LargestNumberGreaterThanTwiceOthers.csproj", "{5675FE51-B76D-483C-B562-D767E000C1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpToCIDR", "WeeklyContest\IpToCIDR\IpToCIDR.csproj", "{D357C151-320C-4AB6-91A2-75A0CA6A9095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,8 +261,20 @@ Global
 		{625446C2-8AB2-4522-949E-D081FBCC43EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625446C2-8AB2-4522-949E-D081FBCC43EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{625446C2-8AB2-4522-949E-D081FBCC43EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5675FE51-B76D-483C-B562-D767E000C1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5675FE51-B76D-483C-B562-D767E000C1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5675FE51-B76D-483C-B562-D767E000C1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5675FE51-B76D-483C-B562-D767E000C1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D357C151-320C-4AB6-91A2-75A0CA6A9095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D357C151-320C-4AB6-91A2-75A0CA6A9095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D357C151-320C-4AB6-91A2-75A0CA6A9095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D357C151-320C-4AB6-91A2-75A0CA6A9095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5675FE51-B76D-483C-B562-D767E000C1E3} = {582D1C90-0D47-4A54-A22D-7E91296F6AF3}
+		{D357C151-320C-4AB6-91A2-75A0CA6A9095} = {582D1C90-0D47-4A54-A22D-7E91296F6AF3}
 	EndGlobalSection
 EndGlobal
