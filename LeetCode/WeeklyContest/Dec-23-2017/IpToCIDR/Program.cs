@@ -92,10 +92,7 @@ namespace IpToCIDR
         {
             Solution sol = new Solution();
             var result = sol.IpToCIDR("0.171.255.5", 422);
-
-            int n = 12;
             Int64 num = sol.ConvertToLong("1.0.0.0");
-
         }
     }
 }
