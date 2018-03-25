@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeFreeTime", "WeeklyC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackingTheSafe", "Problems\CrackingTheSafe\CrackingTheSafe\CrackingTheSafe.csproj", "{1B28DAAE-0123-48F9-8CDD-E16340F405D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampagneTower", "ChampagneTower\ChampagneTower.csproj", "{C98779E6-647C-4247-8333-BFC4EE726AE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -313,6 +315,10 @@ Global
 		{1B28DAAE-0123-48F9-8CDD-E16340F405D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B28DAAE-0123-48F9-8CDD-E16340F405D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B28DAAE-0123-48F9-8CDD-E16340F405D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98779E6-647C-4247-8333-BFC4EE726AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98779E6-647C-4247-8333-BFC4EE726AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98779E6-647C-4247-8333-BFC4EE726AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98779E6-647C-4247-8333-BFC4EE726AE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -370,5 +376,6 @@ Global
 		{05410162-9691-432F-AB52-0D3858F968F0} = {936E8EA3-A3E1-4F04-A042-AC02C97A0115}
 		{AB9E13E3-4E91-45D0-B055-470190E2DC2D} = {936E8EA3-A3E1-4F04-A042-AC02C97A0115}
 		{1B28DAAE-0123-48F9-8CDD-E16340F405D8} = {63A10C72-204F-4F1E-8683-3C780A4F895C}
+		{C98779E6-647C-4247-8333-BFC4EE726AE3} = {63A10C72-204F-4F1E-8683-3C780A4F895C}
 	EndGlobalSection
 EndGlobal
